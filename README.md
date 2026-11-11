@@ -115,7 +115,7 @@ bash scripts/check-tools.sh
 `scripts/recon.sh` 是流水线骨架，**只做收集、不做利用**，并且在 S3 之后强制停下等你人工确认 `targets.txt`——归属判定刻意不自动化：
 
 ```bash
-./scripts/recon.sh example.com ./out      # 仅对已授权目标
+bash scripts/recon.sh example.com ./out      # 仅对已授权目标
 ```
 
 ---
